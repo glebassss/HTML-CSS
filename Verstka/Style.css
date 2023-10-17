@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#name{
+    width: 100%;
+    height: 150px;
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: xx-large;
+    letter-spacing: 20px
+}
+.toplink {
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: medium;
+    link: hover;
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#searchbox{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    padding-left: 10px;
+}
+button{
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.4;
+}
+#search{
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    border: white;
+    color: black;
+    opacity: 0.4;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#about{
+    background-color: white;
+    width: 100%;
+    height: 210px;
+}
+.about{
+    display: flex;
+    width: 98%;
+    height: 150pxpx;
+    background-color: #fbc7fb;
+    border-radius: 40px;
+    align-items: baseline;
+    justify-content: center;
+}
+.atext{
+    width: 85.5%;
+    height: 160px;
+    margin-bottom: 1.3px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#images{
+    background-color: white;
+    width: 100%;
+    height: 310px;
+}
+.images{
+    display: flex;
+    width: 98%;
+    height: 310px;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.img{
+    width: 100%;
+    height: 290px;
+    margin: 2px;
+    max-width: 410px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#info{
+
+    background-color: white;
+    width: 100%;
+    height: 490px;
+}
+.info {
+    display: flex;
+    width: 98%;
+    height: 480pxpx;
+    background-color: #fbc7fb;
+    margin: auto;
+    border-radius: 40px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+}
+.itext{
+    width: 32%;
+    height: 440px;
+    margin-top: 40px;
+    font-family: cursive;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    background-color: #fbc7fb;
+    width: 98%;
+    height: 90px;
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-evenly;
+}
+.phones{
+    color: black;
+    font-size: xx-large;
+    font-family: monospace;
+}
+.email{
+    color: black;
+    font-size: xx-large;
+    font-family: monospace;
+}
